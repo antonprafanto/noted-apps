@@ -243,12 +243,12 @@ class _HomeState extends State<Home> {
                                 ...filteredNotes.map((note) {
                                   // Tampilkan catatan yang difilter
                                   return buildNoteCard(note);
-                                }).toList()
+                                })
                               else
                                 ...notes.map((note) {
                                   // Tampilkan catatan asli saat tidak mencari
                                   return buildNoteCard(note);
-                                }).toList(),
+                                }),
                             ],
                           ),
                   ),
